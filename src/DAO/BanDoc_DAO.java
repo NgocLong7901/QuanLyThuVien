@@ -45,7 +45,7 @@ public class BanDoc_DAO {
                 
             }
         }catch (SQLException e){
-            
+            e.printStackTrace();
         }
         return listBanDoc;
     }
