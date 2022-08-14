@@ -45,7 +45,7 @@ public class BanDoc_DAO {
                 
             }
         }catch (SQLException e){
-            System.out.println("Loi o dau do");
+            System.out.println("Loi o dau do roi");
             e.printStackTrace();
         }
         return listBanDoc;
